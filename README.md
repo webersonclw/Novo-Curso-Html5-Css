@@ -21,5 +21,13 @@
     <h2>ordenamento de territorio</h2>
     <h3>muito território</h3>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est officia architecto tenetur, sequi praesentium numquam. Consectetur, qui! Commodi recusandae maxime nisi quasi odio mollitia? Necessitatibus velit repudiandae voluptatem aut consequatur?</p>
+        <h1>Principais Formatações</h1>
+    <h2>Negrito & Destaques</h2>
+    <p>Nesta frase <b>temos um termo negrito</b> usando a tag (b) </p>
+    <h2>Temos o destaque</h2>
+    <p>Nesta frase temos um termo em destaque, usando <strong>Termo em Destaque</strong> chamado de (STRONG) </p>
+    <h2>Italico & Enfase</h2>
+    <p>Nesta frase temo o termo em <i>ITALICO</i> usando a tag (i)</p>
+    <p>Nesse termo um <em>termo em enfase</em> usanda a tag (em) semantico</p>
 </body>
 </html>
