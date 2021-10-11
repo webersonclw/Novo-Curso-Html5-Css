@@ -1,41 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images.png" type="image/x-icon">
-    <style>
-        mark{
-            background-color: lawngreen;
-        }
-    </style>
-    <title>Principais formatações</title>
+    <title>Outras Formatações</title>
 </head>
 <body>
-    <h1>Principais Formatações</h1>
-    <h2>Negrito & Destaques</h2>
-    <p>Nesta frase <b>temos um termo negrito</b> usando a tag (b) </p>
-    <h2>Temos o destaque</h2>
-    <p>Nesta frase temos um termo em destaque, usando <strong>Termo em Destaque</strong> chamado de (STRONG) </p>
-    <h2>Italico & Enfase</h2>
-    <p>Nesta frase temo o <i>termo em ITALICO</i> usando a tag (i)</p>
-    <p>Nesse termo um <em>termo em enfase</em> usando a tag (em) semantico
-    </p>
-    <p>Podemos tambem colocar <mark >um testo marcado</mark> com a tag (mark)ou usar a tag (style)
-    </p>
-    <p>e outro paragrafo temos <mark>outro texto marcado</mark>no final</p>
-    <h2>texto grande e pequeno</h2>
-    <p>estamos criando um <big>texto grande</big> e um <small>texto pequeno neste</small> paragrafo</p>
-    <h2>Texto Deletado</h2>
-    <p>Podemos marcar <del> texto como excluido</del> para indicar que ele deve ser lido mais não considerado</p>
-    <h2>Texto Inserido</h2>
-    <p>Podemos marcar <ins>um texto como inserido</ins> para dar enfase e indicar que ele foi adicionado depois</p>
-    <p>Existe tambem o texto <u>sublinhado</u>com a tag (u)</p>
-    <h2>Texto Sobrescrito</h2>
-    <p> Para inserir coisas do tipo <sup> x20+3</sup></p>
-    <h2>Texto Subscrito</h2>
-    <p>Para inserir coisas do tipo <sub> h2o</sub></p>
-
+    <h1>Outras Formatações</h1>
+    <h2>Codigo-Fone</h2>
+    <p>O comando <code>document.getElementById('TEST')</code> é escrito em liguagem javaScript</p>
+<pre> <!--pre faz com que o texto seja printado do mesmo geito que foi digitado-->
+    <code>
+num = int(input('Digite um Numero'))
+if num % 2 == 0:
+    print(f'O numero {num} é PAR')
+else:
+    print(f'O numero {num} é IMPAR')
+print('FIM DO PROGRAMA')
+    </code>
+</pre>
+<h2>Citações </h2>
+<p>Como diria o pai de um amigo: <q> computador é um burro muito rapido</q></p> <!--usar o (q) para citações não aspas direto-->
+<h2>Citações Diretas</h2>
+<p>Segundo Jeff Nobel, no seu livro HTML para leigos</p>
+<blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&printsec=frontcover&hl=pt-BR&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"> 
+    A diferençã dos elemntos  do livro parece ser muito bo segundo o autor deste livro
+</blockquote>
+<h2>Abreviações</h2>
+<p>Estou aprendendo javaScrip <abbr title="HiperText Markup language">HTML</abbr>,<abbr title="Cascading Style Sheets "> CSS </abbr> muito top</p>
+<h2>Texto Ivertido</h2>
+<p><bdo dir="rtl">Estou aprendendo a fazer sites.</bdo></p>
 </body>
-</html>
+</html> 
