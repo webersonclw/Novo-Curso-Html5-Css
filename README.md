@@ -7,6 +7,9 @@
     <title>Outras Formatações</title>
 </head>
 <body>
+    <h1>Usando Links Externos</h1>
+<p>Voce pode acessar meu <a href="https://github.com/webersonclw" target="_blank" rel="external"> repositorio publico do GitHub</a></p> <!--esse comando (target="_blank" rel="external">) faz com que se abra outra aba no navegador, assim não fechando sua aba de navegção principal-->
+<p>Voce Tambem pode acessar o meu <a href="https://www.youtube.com/channel/UCmk7O5LVGCR6QK4YSXa89-g" target="_blank" rel="external"> canal do YouTube</a></p>
     <h1>Outras Formatações</h1>
     <h2>Codigo-Fone</h2>
     <p>O comando <code>document.getElementById('TEST')</code> é escrito em liguagem javaScript</p>
