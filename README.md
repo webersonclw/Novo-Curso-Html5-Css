@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -37,26 +36,26 @@ print('FIM DO PROGRAMA')
 <h2>Listas Ordenadas</h2>
 <ol type="1"><!--start="3" serve para estartar a numeração apartir de um ponto, tipo apartir do numero 5(esses do tipo A, a, I, i)-->
     <li>Acordar</li>
-    <li>ligar para Pedro</li>
+    <li>Ligar para Pedro</li>
     <li>Tomar cafe</li>
     <li>Escovar os dentes</li>
     <li>Trabalho</li>
     <li>Almoço</li>
-    <li>CAfe TArde</li>
-    <li>voltar para casa</li>
+    <li>Cafe Tarde</li>
+    <li>Voltar para casa</li>
     <li>Academia</li>
-    <li>voltar casa</li>
-    <li>jantar</li>
+    <li>Voltar casa</li>
+    <li>Jantar</li>
 </ol>
 <h2>Lista não ordenada</h2>
 <ul type="square"> <!--tipos são disc, circle, square-->
-    <li>leite</li>
+    <li>Leite</li>
     <li>Pão</li>
-    <li>tomate</li>
-    <li>alface</li>
-    <li>arroz</li>
-    <li>feijão</li>
-    <li>manteiga</li>
+    <li>Tomate</li>
+    <li>Alface</li>
+    <li>Arroz</li>
+    <li>Feijão</li>
+    <li>Manteiga</li>
 </ul>
     </ul>
 <h2>Minhas Linguagens Favoritas</h2>
@@ -106,8 +105,6 @@ print('FIM DO PROGRAMA')
     <dd>Linguagem de marcação para criação do desing de um site</dd>
     <dt>JavaScript</dt>
     <dd>Linguargem de programação de interatividade de um site</dd>
-
 </dl>
-    
 </body>
 </html> 
