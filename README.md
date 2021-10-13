@@ -58,6 +58,56 @@ print('FIM DO PROGRAMA')
     <li>feijão</li>
     <li>manteiga</li>
 </ul>
+    </ul>
+<h2>Minhas Linguagens Favoritas</h2>
+<ol>
+    <li>Antigas</li>
+    <ol type="a">
+        <li>Cliper</li>
+        <li>Visual</li>
+        <li>Fortran</li>
+        <li>Delphi</li>
+    </ol>
+    <li>Novas</li>
+    <ol type="a">
+        <li>PHP</li>
+        <li>Python</li>
+        <li>JAvaScript</li>
+        <li>Kotlin</li>
+    </ol>
+</ol>
+<h2>Meus Jogos FAvoritos</h2>
+<ol>
+    <li>NES</li>
+    <ul type="square">
+        <LI>Mario Bros</LI>
+        <ul type="circle">
+            <li>Mario: lost levels</li>
+            <li>Mario Bros 3</li>
+        </ul>
+        <li>Ninja Gaiden</li>        
+    </ul>
+    <li>SNES</li>
+    <ul type="square">
+        <li>Mario</li>
+        <li>Donkey kong</li>
+    </ul>
+    <li>Playstatin</li>
+    <ul type="square">
+        <li>Final Fantasy</li>
+        <li>Castlevania</li>
+    </ul>
+</ol>
+<h2>Lista de Definições</h2>
+<dl>
+    <dt>HTML5</dt>
+    <dd>Linguagem de marcação para criação do conteudo do site</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para criação do desing de um site</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguargem de programação de interatividade de um site</dd>
+
+</dl>
     
 </body>
 </html> 
