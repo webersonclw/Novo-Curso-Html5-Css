@@ -59,5 +59,5 @@ print('FIM DO PROGRAMA')
     <li>manteiga</li>
 </ul>
     
-    </body>
+</body>
 </html> 
