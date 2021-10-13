@@ -32,5 +32,32 @@ print('FIM DO PROGRAMA')
 <p>Estou aprendendo javaScrip <abbr title="HiperText Markup language">HTML</abbr>,<abbr title="Cascading Style Sheets "> CSS </abbr> muito top</p>
 <h2>Texto Ivertido</h2>
 <p><bdo dir="rtl">Estou aprendendo a fazer sites.</bdo></p>
-</body>
+    
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1"><!--start="3" serve para estartar a numeração apartir de um ponto, tipo apartir do numero 5(esses do tipo A, a, I, i)-->
+        <li>Acordar</li>
+        <li>ligar para Pedro</li>
+        <li>Tomar cafe</li>
+        <li>Escovar os dentes</li>
+        <li>Trabalho</li>
+        <li>Almoço</li>
+        <li>CAfe TArde</li>
+        <li>voltar para casa</li>
+        <li>Academia</li>
+        <li>voltar casa</li>
+        <li>jantar</li>
+    </ol>
+    <h2>Lista não ordenada</h2>
+    <ul type="square"> <!--tipos são disc, circle, square-->
+        <li>leite</li>
+        <li>Pão</li>
+        <li>tomate</li>
+        <li>alface</li>
+        <li>arroz</li>
+        <li>feijão</li>
+        <li>manteiga</li>
+    </ul>
+    
+    </body>
 </html> 
