@@ -16,6 +16,15 @@
         <img src="imagens/foto-g.png" alt="Imagem Flexivel">
     </picture>
     
+    <h1>Reproduzindo Audio</h1>
+        <p>Vamos aprender a reproduzir audio em Html.</p>
+        <audio preload="metadata" autoplay controls loop>
+            <source src="midias/09-911.mp3" type="audio/mpeg">
+            <source src="midias/09-911.mp3" type="audio/ogg">
+            <source src="midias/09-911.mp3" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="midias/09-911.mp3"> Clique aqui para baixar o arquivo Mp3</a></p>
+    </audio>
+    
     <h1>Usando Links Externos</h1>
 <p>Voce pode acessar meu <a href="https://github.com/webersonclw" target="_blank" rel="external"> repositorio publico do GitHub</a></p> <!--esse comando (target="_blank" rel="external">) faz com que se abra outra aba no navegador, assim não fechando sua aba de navegção principal-->
 <p>Voce Tambem pode acessar o meu <a href="https://www.youtube.com/channel/UCmk7O5LVGCR6QK4YSXa89-g" target="_blank" rel="external"> canal do YouTube</a></p>
