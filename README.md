@@ -7,6 +7,15 @@
     <title>Outras Formatações</title>
 </head>
 <body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexivel">
+    </picture>
+    
     <h1>Usando Links Externos</h1>
 <p>Voce pode acessar meu <a href="https://github.com/webersonclw" target="_blank" rel="external"> repositorio publico do GitHub</a></p> <!--esse comando (target="_blank" rel="external">) faz com que se abra outra aba no navegador, assim não fechando sua aba de navegção principal-->
 <p>Voce Tambem pode acessar o meu <a href="https://www.youtube.com/channel/UCmk7O5LVGCR6QK4YSXa89-g" target="_blank" rel="external"> canal do YouTube</a></p>
